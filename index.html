@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="#">
+    <!-- <link rel="stylesheet" href="./reset.css"> -->
+	<link rel="stylesheet" href="./dist/styles.min.css">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet"> -->
+    <title>HOUNTER</title>
+    <script defer src="./dist/scripts.min.js"></script>
+</head>
+<body>
+    
+    <main>
+        <nav class="navigation">
+            <div class="navigation__logo"> <a href="#"><img src="./dist/images/logo/HOUNTER.png" alt=""></a></div>
+            <div class="navigation__main">
+                <div class="navigation__main--button">About Us</div>
+                <div class="navigation__main--button">Article</div>
+                <div class="navigation__main--button-prop">Property  
+                <nav class="navigation__main--button-prop-menu hidden">
+                        <p>House</p>
+                        <p>Villa</p>
+                        <p>Apartment</p>
+                </nav>
+              </div>
+                <div class="navigation__main--button-signup">Sign Up!</div>
+            </div>
+        </nav>
+        <article class="mainmodal hidden"> </article>
+        <article class="inputalarmer hidden">
+            <div class="inputalarmer__text">Text Text Text</div>
+            <div class="inputalarmer__close">Close</div>
+        </article>
+        <article class="background i-left"><img src="./dist/images/backgrounds/1left.png" alt=""> </article>        
+        <article class="background ii-right"><img src="./dist/images/backgrounds/2right.png" alt=""> </article>        
+        <article class="background iii-left"><img src="./dist/images/backgrounds/3left.png" alt=""> </article>       
+        <article class="background iiii-right"><img src="./dist/images/backgrounds/4right.png" alt=""> </article>     
+        <header class="header">
+            <div class="header__hero">
+                <div class="header__hero--wrap">
+                    <h1>Find The Place To</h1>
+                    <h1>Live<span> Your Dreams</span></h1> 
+                    <h1>Easily Here</h1>
+                    <p>Everything you need about finding your place to live will be here, where it will be easier for you</p>
+                </div>
+                <div class="header__hero--location">
+                    <img class="header__hero--location-label" src="./dist/images/stat/location.png" alt="">
+                    <input class="header__hero--location-input" type="text"  value="Search for the location you want!">
+                    <img class="header__hero--location-search" src="./dist/images/stat/search.png" alt="">
+                </div>
+                <div class="header__hero--partners">
+                    <p class="header__hero--partners-wrap">Our Partnership</p>
+                    <div class="header__hero--partners-logo-container">
+                        <a href="#"><img src="./dist/images/logo/traveloka.png" alt=""></a>
+                        <a href="#"><img src="./dist/images/logo/tiket.png" alt=""></a>
+                        <a href="#"><img src="./dist/images/logo/air.png" alt=""></a>
+                        <a href="#"><img src="./dist/images/logo/trip.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+            <div class="header__picture">
+                <div class="header__picture--slider"></div>
+            </div>
+        </header>
+        <article class="recomendation">
+            <div class="recomendation__navbar" >
+                <div class="recomendation__titles">
+                    <div class="recomendation__titles--orange">Our Recommendation</div>
+                    <div class="recomendation__titles--black">Featured House</div>      
+                </div>
+                <div class="recomendation__chooseBattons">
+                    <div class="recomendation__chooseBattons--button allbutton activerecombutton" data-tabname="clear">All</div>
+                    <div class="recomendation__chooseBattons--button" data-tabname="house">
+                        <svg width="135" height="52" viewBox="0 0 135 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="0.5" y="0.5" width="134" height="51" rx="26"  />
+                        <path d="M45 24.8319V33.5C44.9998 33.7719 44.9261 34.0386 44.7868 34.272C44.6474 34.5054 44.4476 34.6968 44.2084 34.8259C43.9916 34.9432 43.7485 35.0031 43.502 34.9999H38.9967C38.7978 34.9999 38.607 34.9209 38.4664 34.7803C38.3257 34.6396 38.2467 34.4488 38.2467 34.2499V29.7493C38.2467 29.5504 38.1677 29.3596 38.027 29.2189C37.8864 29.0783 37.6956 28.9993 37.4967 28.9993H34.4967C34.2978 28.9993 34.107 29.0783 33.9664 29.2189C33.8257 29.3596 33.7467 29.5504 33.7467 29.7493V34.2499C33.7467 34.4488 33.6677 34.6396 33.527 34.7803C33.3864 34.9209 33.1956 34.9999 32.9967 34.9999H28.5002C28.2875 35.0005 28.0772 34.9556 27.8833 34.8682C27.6894 34.7808 27.5165 34.653 27.376 34.4934C27.1294 34.2082 26.9957 33.8427 27 33.4657V24.8318C27.0001 24.6228 27.0439 24.4162 27.1284 24.225C27.213 24.0339 27.3364 23.8625 27.4909 23.7218L34.9903 16.9031C35.2658 16.6508 35.6258 16.5108 35.9993 16.5107C36.3729 16.5107 36.7329 16.6506 37.0084 16.9029L44.5091 23.7219C44.6636 23.8626 44.787 24.034 44.8715 24.2252C44.9561 24.4163 44.9998 24.6229 45 24.8319Z"  />
+                        <path d="M57.764 33V20.4H59.708V25.782H65.99V20.4H67.934V33H65.99V27.654H59.708V33H57.764ZM75.2374 33.18C74.3134 33.18 73.4854 32.97 72.7534 32.55C72.0334 32.118 71.4634 31.536 71.0434 30.804C70.6234 30.06 70.4134 29.214 70.4134 28.266C70.4134 27.318 70.6234 26.478 71.0434 25.746C71.4634 25.002 72.0334 24.42 72.7534 24C73.4854 23.568 74.3134 23.352 75.2374 23.352C76.1494 23.352 76.9654 23.568 77.6854 24C78.4174 24.42 78.9934 25.002 79.4134 25.746C79.8334 26.478 80.0434 27.318 80.0434 28.266C80.0434 29.214 79.8334 30.06 79.4134 30.804C78.9934 31.536 78.4174 32.118 77.6854 32.55C76.9654 32.97 76.1494 33.18 75.2374 33.18ZM75.2374 31.488C75.8014 31.488 76.3054 31.35 76.7494 31.074C77.1934 30.786 77.5414 30.402 77.7934 29.922C78.0454 29.43 78.1654 28.878 78.1534 28.266C78.1654 27.642 78.0454 27.09 77.7934 26.61C77.5414 26.118 77.1934 25.734 76.7494 25.458C76.3054 25.182 75.8014 25.044 75.2374 25.044C74.6734 25.044 74.1634 25.188 73.7074 25.476C73.2634 25.752 72.9154 26.136 72.6634 26.628C72.4114 27.108 72.2914 27.654 72.3034 28.266C72.2914 28.878 72.4114 29.43 72.6634 29.922C72.9154 30.402 73.2634 30.786 73.7074 31.074C74.1634 31.35 74.6734 31.488 75.2374 31.488ZM85.3756 33.18C84.3676 33.18 83.5636 32.838 82.9636 32.154C82.3636 31.47 82.0636 30.546 82.0636 29.382V23.55H83.9176V28.878C83.9176 29.706 84.1096 30.36 84.4936 30.84C84.8896 31.32 85.4356 31.56 86.1316 31.56C86.8156 31.56 87.3796 31.344 87.8236 30.912C88.2796 30.48 88.5076 29.922 88.5076 29.238V23.55H90.3616V33H88.5076V31.488C88.1956 31.992 87.7576 32.4 87.1936 32.712C86.6416 33.024 86.0356 33.18 85.3756 33.18ZM96.112 33.18C95.32 33.18 94.606 33.042 93.97 32.766C93.334 32.49 92.806 32.082 92.386 31.542L93.646 30.462C94.006 30.882 94.396 31.188 94.816 31.38C95.248 31.56 95.734 31.65 96.274 31.65C96.718 31.65 97.078 31.542 97.354 31.326C97.642 31.11 97.786 30.816 97.786 30.444C97.786 30.132 97.672 29.88 97.444 29.688C97.216 29.508 96.694 29.31 95.878 29.094C95.182 28.914 94.612 28.71 94.168 28.482C93.724 28.254 93.382 27.996 93.142 27.708C92.794 27.276 92.62 26.73 92.62 26.07C92.62 25.542 92.77 25.074 93.07 24.666C93.37 24.258 93.772 23.94 94.276 23.712C94.792 23.472 95.368 23.352 96.004 23.352C96.676 23.352 97.324 23.49 97.948 23.766C98.584 24.03 99.094 24.396 99.478 24.864L98.416 26.034C98.068 25.686 97.678 25.41 97.246 25.206C96.826 24.99 96.442 24.882 96.094 24.882C95.578 24.882 95.176 24.978 94.888 25.17C94.612 25.362 94.474 25.644 94.474 26.016C94.486 26.34 94.618 26.604 94.87 26.808C95.122 27.012 95.656 27.216 96.472 27.42C97.072 27.576 97.564 27.75 97.948 27.942C98.344 28.122 98.656 28.332 98.884 28.572C99.124 28.8 99.292 29.064 99.388 29.364C99.484 29.664 99.532 30 99.532 30.372C99.532 30.912 99.376 31.398 99.064 31.83C98.764 32.25 98.356 32.58 97.84 32.82C97.324 33.06 96.748 33.18 96.112 33.18ZM105.985 33.18C105.013 33.18 104.149 32.976 103.393 32.568C102.649 32.148 102.061 31.578 101.629 30.858C101.209 30.138 100.999 29.31 100.999 28.374C100.999 27.378 101.203 26.508 101.611 25.764C102.031 25.008 102.601 24.42 103.321 24C104.053 23.568 104.887 23.346 105.823 23.334C106.639 23.346 107.371 23.55 108.019 23.946C108.679 24.342 109.195 24.882 109.567 25.566C109.951 26.25 110.131 27.036 110.107 27.924L110.089 28.716H102.853C102.961 29.568 103.309 30.246 103.897 30.75C104.497 31.242 105.253 31.488 106.165 31.488C106.633 31.488 107.065 31.41 107.461 31.254C107.869 31.098 108.307 30.816 108.775 30.408L109.711 31.722C109.267 32.154 108.703 32.508 108.019 32.784C107.335 33.048 106.657 33.18 105.985 33.18ZM105.823 25.044C104.203 25.044 103.237 25.776 102.925 27.24H108.217V27.114C108.181 26.718 108.049 26.364 107.821 26.052C107.593 25.74 107.305 25.494 106.957 25.314C106.609 25.134 106.231 25.044 105.823 25.044Z"  />
+                        </svg>
+                    </div>
+                    <div class="recomendation__chooseBattons--button  " data-tabname="villa">
+                        <svg width="119" height="52" viewBox="0 0 119 52" fill="none" >
+                        <rect x="0.5" y="0.5" width="118" height="51" rx="25.5"   />
+                        <path d="M31 35H28C27.45 35 27 34.55 27 34V22.69C27 22.27 27.25 21.9 27.64 21.75L38.64 17.52C38.7921 17.4613 38.9561 17.4407 39.118 17.4599C39.2798 17.4792 39.4345 17.5376 39.5686 17.6303C39.7027 17.723 39.8121 17.847 39.8873 17.9916C39.9624 18.1362 40.0012 18.297 40 18.46V24H32C31.45 24 31 24.45 31 25V35ZM41 26H34C33.45 26 33 26.45 33 27V34C33 34.55 33.45 35 34 35H38V31C38 30.45 38.45 30 39 30C39.55 30 40 30.45 40 31V35H44C44.55 35 45 34.55 45 34V26C45 24.9 44.1 24 43 24C41.9 24 41 24.9 41 26Z"  />
+                        <path d="M61.472 33L56.432 20.4H58.646L61.652 28.05C61.856 28.578 62.03 29.034 62.174 29.418C62.318 29.802 62.438 30.15 62.534 30.462C62.642 30.138 62.762 29.784 62.894 29.4C63.026 29.004 63.188 28.554 63.38 28.05L66.17 20.4H68.438L63.362 33H61.472ZM71.4052 21.462C71.0092 21.462 70.7032 21.36 70.4872 21.156C70.2712 20.952 70.1632 20.664 70.1632 20.292C70.1632 19.944 70.2712 19.662 70.4872 19.446C70.7152 19.23 71.0212 19.122 71.4052 19.122C71.8012 19.122 72.1072 19.224 72.3232 19.428C72.5392 19.632 72.6472 19.92 72.6472 20.292C72.6472 20.64 72.5332 20.922 72.3052 21.138C72.0892 21.354 71.7892 21.462 71.4052 21.462ZM70.5052 33V23.55H72.3592V33H70.5052ZM75.209 33V19.68H77.063V33H75.209ZM79.7265 33V19.68H81.5805V33H79.7265ZM87.6683 33.18C86.8883 33.18 86.1743 32.964 85.5263 32.532C84.8903 32.1 84.3803 31.512 83.9963 30.768C83.6123 30.024 83.4203 29.184 83.4203 28.248C83.4203 27.3 83.6123 26.46 83.9963 25.728C84.3923 24.984 84.9203 24.402 85.5803 23.982C86.2523 23.562 87.0023 23.352 87.8303 23.352C88.5383 23.352 89.1623 23.508 89.7023 23.82C90.2543 24.12 90.6743 24.51 90.9623 24.99V23.55H92.8343V33H90.9623V31.542C90.6383 31.998 90.1763 32.388 89.5763 32.712C88.9883 33.024 88.3523 33.18 87.6683 33.18ZM88.1543 31.47C88.7183 31.47 89.2163 31.332 89.6483 31.056C90.0803 30.78 90.4163 30.402 90.6563 29.922C90.9083 29.43 91.0343 28.872 91.0343 28.248C91.0343 27.636 90.9083 27.09 90.6563 26.61C90.4163 26.13 90.0803 25.752 89.6483 25.476C89.2163 25.2 88.7183 25.062 88.1543 25.062C87.6023 25.062 87.1103 25.2 86.6783 25.476C86.2583 25.752 85.9223 26.13 85.6703 26.61C85.4303 27.09 85.3103 27.636 85.3103 28.248C85.3103 28.872 85.4303 29.43 85.6703 29.922C85.9223 30.402 86.2583 30.78 86.6783 31.056C87.1103 31.332 87.6023 31.47 88.1543 31.47Z"  />
+                        </svg>
+                    </div>
+                    <div class="recomendation__chooseBattons--button " data-tabname="appart">
+                        <svg width="175" height="52" viewBox="0 0 175 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="0.5" y="0.5" width="174" height="51" rx="25.5" />
+                        <path d="M41 25V19C41 17.9 40.1 17 39 17H33C31.9 17 31 17.9 31 19V21H29C27.9 21 27 21.9 27 23V33C27 34.1 27.9 35 29 35H35V31H37V35H43C44.1 35 45 34.1 45 33V27C45 25.9 44.1 25 43 25H41ZM31 33H29V31H31V33ZM31 29H29V27H31V29ZM31 25H29V23H31V25ZM35 29H33V27H35V29ZM35 25H33V23H35V25ZM35 21H33V19H35V21ZM39 29H37V27H39V29ZM39 25H37V23H39V25ZM39 21H37V19H39V21ZM43 33H41V31H43V33ZM43 29H41V27H43V29Z"  />
+                        <path d="M56.45 33L61.328 20.4H63.308L68.15 33H66.08L64.892 29.868H59.618L58.43 33H56.45ZM61.292 25.476L60.338 27.996H64.19L63.2 25.404C63.164 25.32 63.092 25.11 62.984 24.774C62.876 24.438 62.756 24.066 62.624 23.658C62.492 23.25 62.372 22.89 62.264 22.578C62.168 22.89 62.06 23.232 61.94 23.604C61.82 23.976 61.7 24.33 61.58 24.666C61.472 25.002 61.376 25.272 61.292 25.476ZM69.8995 36.96V23.55H71.7715V24.9C72.0595 24.492 72.4855 24.138 73.0495 23.838C73.6255 23.538 74.2195 23.388 74.8315 23.388C75.6835 23.388 76.4395 23.598 77.0995 24.018C77.7595 24.438 78.2815 25.014 78.6655 25.746C79.0495 26.478 79.2415 27.318 79.2415 28.266C79.2415 29.202 79.0495 30.042 78.6655 30.786C78.2935 31.518 77.7775 32.1 77.1175 32.532C76.4575 32.952 75.7135 33.162 74.8855 33.162C74.2735 33.162 73.6855 33.024 73.1215 32.748C72.5575 32.472 72.1075 32.142 71.7715 31.758V36.96H69.8995ZM74.5795 31.452C75.1315 31.452 75.6235 31.314 76.0555 31.038C76.4875 30.762 76.8295 30.384 77.0815 29.904C77.3335 29.424 77.4595 28.878 77.4595 28.266C77.4595 27.654 77.3335 27.114 77.0815 26.646C76.8415 26.166 76.5055 25.788 76.0735 25.512C75.6415 25.236 75.1435 25.098 74.5795 25.098C74.0155 25.098 73.5175 25.236 73.0855 25.512C72.6535 25.776 72.3115 26.148 72.0595 26.628C71.8075 27.108 71.6815 27.654 71.6815 28.266C71.6815 28.878 71.8075 29.424 72.0595 29.904C72.3115 30.384 72.6535 30.762 73.0855 31.038C73.5175 31.314 74.0155 31.452 74.5795 31.452ZM84.891 33.18C84.111 33.18 83.397 32.964 82.749 32.532C82.113 32.1 81.603 31.512 81.219 30.768C80.835 30.024 80.643 29.184 80.643 28.248C80.643 27.3 80.835 26.46 81.219 25.728C81.615 24.984 82.143 24.402 82.803 23.982C83.475 23.562 84.225 23.352 85.053 23.352C85.761 23.352 86.385 23.508 86.925 23.82C87.477 24.12 87.897 24.51 88.185 24.99V23.55H90.057V33H88.185V31.542C87.861 31.998 87.399 32.388 86.799 32.712C86.211 33.024 85.575 33.18 84.891 33.18ZM85.377 31.47C85.941 31.47 86.439 31.332 86.871 31.056C87.303 30.78 87.639 30.402 87.879 29.922C88.131 29.43 88.257 28.872 88.257 28.248C88.257 27.636 88.131 27.09 87.879 26.61C87.639 26.13 87.303 25.752 86.871 25.476C86.439 25.2 85.941 25.062 85.377 25.062C84.825 25.062 84.333 25.2 83.901 25.476C83.481 25.752 83.145 26.13 82.893 26.61C82.653 27.09 82.533 27.636 82.533 28.248C82.533 28.872 82.653 29.43 82.893 29.922C83.145 30.402 83.481 30.78 83.901 31.056C84.333 31.332 84.825 31.47 85.377 31.47ZM92.6456 33V23.55H94.5176V25.332C94.7936 24.768 95.1956 24.3 95.7236 23.928C96.2516 23.544 96.8096 23.352 97.3976 23.352C97.6016 23.352 97.7936 23.37 97.9736 23.406C98.1656 23.442 98.3156 23.484 98.4236 23.532L97.9376 25.548C97.7936 25.488 97.6316 25.44 97.4516 25.404C97.2836 25.356 97.1156 25.332 96.9476 25.332C96.5156 25.332 96.1136 25.44 95.7416 25.656C95.3816 25.872 95.0876 26.166 94.8596 26.538C94.6316 26.91 94.5176 27.324 94.5176 27.78V33H92.6456ZM101.427 33V25.35H99.4649V23.55H101.427V21.138H103.281V23.55H105.477V25.35H103.281V33H101.427ZM107.129 33V23.55H109.001V25.044C109.301 24.588 109.721 24.198 110.261 23.874C110.801 23.55 111.371 23.388 111.971 23.388C113.447 23.388 114.407 24.048 114.851 25.368C115.031 25.008 115.295 24.678 115.643 24.378C116.003 24.078 116.393 23.838 116.813 23.658C117.245 23.478 117.677 23.388 118.109 23.388C120.209 23.388 121.259 24.702 121.259 27.33V33H119.387V27.438C119.387 26.634 119.231 26.046 118.919 25.674C118.619 25.29 118.145 25.098 117.497 25.098C116.813 25.098 116.243 25.314 115.787 25.746C115.331 26.178 115.103 26.712 115.103 27.348V33H113.231V27.402C113.231 26.658 113.069 26.088 112.745 25.692C112.433 25.296 111.977 25.098 111.377 25.098C110.933 25.098 110.531 25.2 110.171 25.404C109.811 25.596 109.523 25.86 109.307 26.196C109.103 26.52 109.001 26.892 109.001 27.312V33H107.129ZM128.151 33.18C127.179 33.18 126.315 32.976 125.559 32.568C124.815 32.148 124.227 31.578 123.795 30.858C123.375 30.138 123.165 29.31 123.165 28.374C123.165 27.378 123.369 26.508 123.777 25.764C124.197 25.008 124.767 24.42 125.487 24C126.219 23.568 127.053 23.346 127.989 23.334C128.805 23.346 129.537 23.55 130.185 23.946C130.845 24.342 131.361 24.882 131.733 25.566C132.117 26.25 132.297 27.036 132.273 27.924L132.255 28.716H125.019C125.127 29.568 125.475 30.246 126.063 30.75C126.663 31.242 127.419 31.488 128.331 31.488C128.799 31.488 129.231 31.41 129.627 31.254C130.035 31.098 130.473 30.816 130.941 30.408L131.877 31.722C131.433 32.154 130.869 32.508 130.185 32.784C129.501 33.048 128.823 33.18 128.151 33.18ZM127.989 25.044C126.369 25.044 125.403 25.776 125.091 27.24H130.383V27.114C130.347 26.718 130.215 26.364 129.987 26.052C129.759 25.74 129.471 25.494 129.123 25.314C128.775 25.134 128.397 25.044 127.989 25.044ZM134.288 33V23.55H136.142V25.026C136.454 24.558 136.892 24.162 137.456 23.838C138.032 23.514 138.626 23.352 139.238 23.352C141.398 23.352 142.478 24.648 142.478 27.24V33H140.624V27.366C140.624 25.746 139.958 24.972 138.626 25.044C138.158 25.044 137.732 25.146 137.348 25.35C136.976 25.542 136.682 25.806 136.466 26.142C136.25 26.478 136.142 26.856 136.142 27.276V33H134.288ZM146.163 33V25.35H144.201V23.55H146.163V21.138H148.017V23.55H150.213V25.35H148.017V33H146.163Z"  />
+                        </svg>
+                    </div>
+                    
+                </div>
+                <div class="recomendation__navigationBattons">
+                    <div class="recomendation__navigationBattons--button" data-tabname="left"> 
+                        <svg width="60" height="52" viewBox="0 0 60 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="60" height="52" rx="26" fill="#E0E3EB"/>
+                        <path d="M33.5078 34.1645C33.7781 34.1651 34.0401 34.0703 34.2482 33.8968C34.3654 33.7991 34.4622 33.6791 34.5332 33.5436C34.6042 33.4082 34.6479 33.26 34.6619 33.1075C34.6758 32.9551 34.6598 32.8013 34.6146 32.6551C34.5694 32.5089 34.496 32.3731 34.3986 32.2554L29.2158 26.0159L34.2135 19.7648C34.3096 19.6457 34.3814 19.5087 34.4247 19.3617C34.468 19.2146 34.482 19.0604 34.4659 18.9078C34.4497 18.7553 34.4038 18.6075 34.3307 18.4729C34.2576 18.3383 34.1588 18.2195 34.04 18.1234C33.9203 18.0175 33.7801 17.9375 33.6283 17.8887C33.4764 17.8398 33.3162 17.823 33.1576 17.8394C32.999 17.8558 32.8454 17.905 32.7066 17.9839C32.5678 18.0629 32.4467 18.1698 32.351 18.2981L26.7633 25.2826C26.5931 25.4909 26.5001 25.7521 26.5001 26.0218C26.5001 26.2914 26.5931 26.5527 26.7633 26.761L32.5476 33.7455C32.6637 33.8863 32.8111 33.9977 32.9779 34.0705C33.1448 34.1433 33.3263 34.1755 33.5078 34.1645Z" fill="#3C4563"/>
+                        </svg>  
+                    </div>
+                    <div class="recomendation__navigationBattons--button" data-tabname="right"> 
+                        <svg width="60" height="52" viewBox="0 0 60 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="60" height="52" rx="26" fill="#E0E3EB"/>
+                        <path d="M27.6589 17.8354C27.3886 17.8349 27.1266 17.9296 26.9185 18.1032C26.8014 18.2009 26.7045 18.3209 26.6336 18.4563C26.5626 18.5918 26.5189 18.74 26.5049 18.8924C26.4909 19.0449 26.507 19.1987 26.5521 19.3449C26.5973 19.4911 26.6707 19.6269 26.7681 19.7445L31.9509 25.984L26.9532 32.2352C26.8571 32.3542 26.7854 32.4912 26.7421 32.6383C26.6988 32.7854 26.6848 32.9396 26.7009 33.0921C26.717 33.2447 26.7629 33.3925 26.836 33.5271C26.9091 33.6617 27.0079 33.7805 27.1267 33.8765C27.2464 33.9825 27.3866 34.0624 27.5385 34.1113C27.6903 34.1602 27.8506 34.177 28.0092 34.1606C28.1678 34.1442 28.3213 34.095 28.4601 34.016C28.5989 33.9371 28.72 33.8302 28.8158 33.7019L34.4035 26.7174C34.5736 26.5091 34.6667 26.2478 34.6667 25.9782C34.6667 25.7086 34.5736 25.4473 34.4035 25.239L28.6191 18.2545C28.5031 18.1136 28.3556 18.0023 28.1888 17.9294C28.022 17.8566 27.8404 17.8244 27.6589 17.8354Z" fill="#3C4563"/>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+            <div class="recomendation__itemLine"></div>
+        </article>
+        <article class="readytosell">
+            <div class="readytosell__description">
+                <div class="readytosell__titles">
+                    <div class="readytosell__titles--orange">Ready to Sell!</div>
+                    <div class="readytosell__titles--black">Let’s tour and see our house!</div>
+                    <div class="readytosell__titles--grey">Houses recommended by our partners that have been curated to become the home of your dreams!</div>    
+                    <div class="readytosell__titles--detailswrapgrey">House Detail</div>
+                </div>
+                <div class="readytosell__description--details"></div>
+                <div class="readytosell__description--details-greyline"></div>
+                <div class="readytosell__description--details-contact">
+                    <img class="bigphoto-russell" src="./dist/images/users/russell.png" alt=""></img>
+                    <div class="readytosell__description--details-contact-titles"> 
+                        <h2>Dianne Russell</h2>
+                        <h3>Manager Director</h3>
+                    </div>
+                    <img src="./dist/images/stat/contact.png" alt="">
+                </div>
+            </div>
+            <div class="readytosell__imageline">
+                <div class="readytosell__imageline--big"></div>
+                <div class="readytosell__imageline--small"></div>
+            </div>
+        </article>
+        <article class="review">
+            <div class="review__maintitles">
+                <div>See Our Review</div>
+                <h1>What Our User Say About Us</h1> 
+            </div>
+            <div class="review__imageline"></div>
+            <div class="review__imagelinebullets">
+                <div class="review__imagelinebullets--bullet" data-tabname="lefthouse"></div>
+                <div class="review__imagelinebullets--bullet activebullet" data-tabname="centerhouse"></div>
+                <div class="review__imagelinebullets--bullet" data-tabname="righthouse"></div>
+            </div>
+        </article>
+        <article class="partnership">
+            <div class="partnership__titles">
+                <div class="partnership__titles--tips">See tips and trick from our partnership</div>
+                <div class="partnership__titles--main">Find out more about selling and buying homes</div>
+                <div><img src="./dist/images/stat/more.png" alt=""></div>
+            </div>
+            <div class="partnership__wraper">
+                <div class="partnership__wraper--rightwraper">
+                    <div class="partnership__wraper--rightwraper-item">
+                        <div class="partnership__wraper--rightwraper-item-image">
+                            <img src="./dist/images/prop/11.jpg" alt="">
+                        </div>
+                        <div class="partnership__wraper--rightwraper-item-content">
+                            <div class="partnership__wraper--rightwraper-item-content-author">
+                                <div class="partnership__wraper--rightwraper-item-content-author-image">
+                                <img src="./dist/images/users/williamson.png" alt="">
+                                </div>
+                                <p class="partnership__wraper--rightwraper-item-content-author-name">Cameron Williamson</p>
+                            </div>
+                            <div class="partnership__wraper--rightwraper-item-content-article">12 Things to know before buying a house</div>
+                            <div class="partnership__wraper--rightwraper-item-content-subarticle">Want to buy a house but are unsure about what we should know, here I will try to explain what we should know and check when we want to buy a house</div>
+                            <div class="partnership__wraper--rightwraper-item-content-timelabel">
+                                <div class="partnership__wraper--rightwraper-item-content-timelabel-image"><img src="./dist/images/stat/clock.png" alt=""></div>
+                                <p class="partnership__wraper--rightwraper-item-content-timelabel-stringline">8 min read | 25 Apr 2021</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="partnership__wraper--leftwraper">
+                    <div class="partnership__wraper--leftwraper-item">
+                        <div class="partnership__wraper--leftwraper-item-image">
+                            <img src="./dist/images/prop/9.jpg" alt="">
+                        </div>
+                        <div class="partnership__wraper--leftwraper-item-content">
+                            <div class="partnership__wraper--leftwraper-item-content-author">
+                                <div class="partnership__wraper--leftwraper-item-content-author-image">
+                                <img src="./dist/images/users/russell.png" alt="">
+                                </div>
+                                <p class="partnership__wraper--leftwraper-item-content-author-name">Dianne Russell</p>
+                            </div>
+                            <div class="partnership__wraper--leftwraper-item-content-article">The things we need to check when we want to buy a house</div>
+                            <div class="partnership__wraper--leftwraper-item-content-timelabel">
+                                <div class="partnership__wraper--leftwraper-item-content-timelabel-image"><img src="./dist/images/stat/clock.png" alt=""></div>
+                                <p class="partnership__wraper--leftwraper-item-content-timelabel-stringline">4 min read | 25 Apr 2021</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="partnership__wraper--leftwraper-item">
+                        <div class="partnership__wraper--leftwraper-item-image">
+                            <img src="./dist/images/prop/10.jpg" alt="">
+                        </div>
+                        <div class="partnership__wraper--leftwraper-item-content">
+                            <div class="partnership__wraper--leftwraper-item-content-author">
+                                <div class="partnership__wraper--leftwraper-item-content-author-image">
+                                <img src="./dist/images/users/henry.png" alt="">
+                                </div>
+                                <p class="partnership__wraper--leftwraper-item-content-author-name">Courtney Henry</p>
+                            </div>
+                            <div class="partnership__wraper--leftwraper-item-content-article">7 Ways to distinguish the quality of the house we want to buy</div>
+                            <div class="partnership__wraper--leftwraper-item-content-timelabel">
+                                <div class="partnership__wraper--leftwraper-item-content-timelabel-image"><img src="./dist/images/stat/clock.png" alt=""></div>
+                                <p class="partnership__wraper--leftwraper-item-content-timelabel-stringline">6 min read | 24 Apr 2021</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="partnership__wraper--leftwraper-item">
+                        <div class="partnership__wraper--leftwraper-item-image">
+                            <img src="./dist/images/prop/8.jpg" alt="">
+                        </div>
+                        <div class="partnership__wraper--leftwraper-item-content">
+                            <div class="partnership__wraper--leftwraper-item-content-author">
+                                <div class="partnership__wraper--leftwraper-item-content-author-image">
+                                <img src="./dist/images/users/robertson.png" alt="">
+                                </div>
+                                <p class="partnership__wraper--leftwraper-item-content-author-name">Darlene Robertson</p>
+                            </div>
+                            <div class="partnership__wraper--leftwraper-item-content-article">The best way to know the quality of the house we want to buy</div>
+                            <div class="partnership__wraper--leftwraper-item-content-timelabel">
+                                <div class="partnership__wraper--leftwraper-item-content-timelabel-image"><img src="./dist/images/stat/clock.png" alt=""></div>
+                                <p class="partnership__wraper--leftwraper-item-content-timelabel-stringline">2 min read | 24 Apr 2021</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div> 
+            </div> 
+        </article>
+        <article class="subscribe">
+            <div class="subscribe__block--left">
+                <div class="subscribe__block--left-leftcolumn">
+                    <img src="./dist/images/subscribe/leftleftup.png" alt="">
+                    <img src="./dist/images/subscribe/leftleftdown.png" alt="">
+                </div>
+                <div class="subscribe__block--left-rightcolumn">
+                    <img src="./dist/images/subscribe/leftrightup.png" alt="">
+                    <img src="./dist/images/subscribe/leftrightdown.png" alt="">
+                </div>
+            </div>
+            <div class="subscribe__block--central">
+                <div class="subscribe__block--central-maintitle">Subscribe For More Info
+and update from Hounter</div>
+                <div class="subscribe__block--central-emailinput">
+                    <img class="subscribe__block--central-emailinput-label" src="./dist/images/stat/email.png" alt="">
+                    <input class="subscribe__block--central-emailinput-input" type="text"  value="Your email here!">
+                    <img class="subscribe__block--central-emailinput-search" src="./dist/images/stat/subscribe.png" alt="">
+                </div>
+            </div>
+            <div class="subscribe__block--right">
+                <div class="subscribe__block--right-leftcolumn">
+                <img src="./dist/images/subscribe/rightleftup.png" alt="">
+                <img src="./dist/images/subscribe/rightleftdown.png" alt="">  
+                </div>
+                <div class="subscribe__block--right-rightcolumn">
+                    <img src="./dist/images/subscribe/rightrightup.png" alt="">
+                    <img src="./dist/images/subscribe/rightrightdown.png" alt="">
+                </div>
+            </div>
+        </article>
+        <footer class="footer">
+        <div class="footer__hero">
+            <div class="footer__hero--logo"><a href="#"><img src="./dist/images/logo/HOUNTER.png" alt=""></a></div>
+            <div class="footer__hero--mission">We provide information about properties such as houses, villas and apartments to help people find their dream home</div>
+            <div class="footer__hero--socialnets">
+                <a href="#"><img src="./dist/images/logo/facebook.png" alt=""></a>
+                <a href="#"><img src="./dist/images/logo/twitter.png" alt=""></a>
+                <a href="#"><img src="./dist/images/logo/instagram.png" alt=""></a>
+            </div>
+        </div>
+        <div class="footer__links">
+            <div class="footer__links--property">
+                <h1 class="footer__links--title">Property</h1>
+                <p><a href="#">House</a></p>
+                <p><a href="#">Apartment</a></p>
+                <p><a href="#">Villa</a></p>
+            </div>
+            <div class="footer__links--article">
+                <h1 class="footer__links--title">Article</h1>
+                <p><a href="#">New Article</a></p>
+                <p><a href="#">Popular Article</a></p>
+                <p><a href="#">Most Read</a></p>
+                <p><a href="#">Tips & Tricks</a></p>
+            </div>
+            <div class="footer__links--contact">
+                <h1 class="footer__links--title">Contact</h1>
+                <p>2464 Royal Ln. Mesa, New Jersey 45463</p> 
+                <p>(671) 555-0110</p>
+                <p>info@hounter.com</p>
+            </div>
+        </div>
+        </footer>
+    </main>
+    
+</body>
+</html>
