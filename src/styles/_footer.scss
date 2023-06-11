@@ -1,125 +1,122 @@
-@media (max-width: 480.5px){
-.footer {
-  
-  padding-bottom: 120px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  width:100vw;
-  gap: 20vw;
-}
-.footer__hero {
-  width: 100vw;
-  padding: 0 5vw;
-  gap: 16px;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-}
-.footer__hero--logo {
-  padding-bottom: 6px;
-}
-.footer__hero--mission {
-  font-weight: 400;
-  font-size: 3vw;
-  line-height: 4vw;
-  color: #626687;
-  opacity: 0.75;
-}
-.footer__links {
-  width: 98vw;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
- 
-  & div {
-    width: 30vw;
+@media (max-width: 660.5px) {
+  .footer {
+    padding-bottom: 120px;
     display: flex;
     flex-direction: column;
-    gap: 18px;
-    & p a {
-      font-weight: 400;
-      font-size: 3vw;
-  line-height: 4vw;
-      color: #888b97;
+    justify-content: space-between;
+    width: 100vw;
+    gap: 20vw;
+  }
+  .footer__hero {
+    width: 100vw;
+    padding: 0 5vw;
+    gap: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .footer__hero--logo {
+    padding-bottom: 6px;
+  }
+  .footer__hero--mission {
+    font-weight: 400;
+    font-size: 3vw;
+    line-height: 4vw;
+    color: #626687;
+    opacity: 0.75;
+  }
+  .footer__links {
+    width: 98vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    & div {
+      width: 30vw;
+      display: flex;
+      flex-direction: column;
+      gap: 18px;
+      & p a {
+        font-weight: 400;
+        font-size: 3vw;
+        line-height: 4vw;
+        color: #888b97;
+      }
     }
   }
-}
-.footer__links--contact p {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 18px;
-  text-transform: capitalize;
-  color: #888b97;
-}
-.footer__links--title {
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 22px;
-  text-transform: capitalize;
-  color: #0e1735;
-  margin-bottom: 6px;
-}
+  .footer__links--contact p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: capitalize;
+    color: #888b97;
+  }
+  .footer__links--title {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: capitalize;
+    color: #0e1735;
+    margin-bottom: 6px;
+  }
 }
 // -----------------------------------------------
-@media (min-width: 481px){
-.footer {
-  align-self: center;
-  padding-bottom: 120px;
-  display: flex;
-  justify-content: space-between;
-  width:84%;
-  min-width: 1200px;
-
-}
-.footer__hero {
-  width: 320px;
-  gap: 16px;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-}
-.footer__hero--logo {
-  padding-bottom: 6px;
-}
-.footer__hero--mission {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
-  color: #626687;
-  opacity: 0.75;
-}
-.footer__links {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  gap: 84px;
-  & div {
+@media (min-width: 661px) {
+  .footer {
+    align-self: center;
+    padding-bottom: 120px;
+    display: flex;
+    justify-content: space-between;
+    width: 84%;
+    min-width: 1200px;
+  }
+  .footer__hero {
+    width: 320px;
+    gap: 16px;
     display: flex;
     flex-direction: column;
-    gap: 18px;
-    & p a {
-      font-weight: 400;
-      font-size: 14px;
-      line-height: 18px;
-      text-transform: capitalize;
-      color: #888b97;
+    justify-content: flex-start;
+  }
+  .footer__hero--logo {
+    padding-bottom: 6px;
+  }
+  .footer__hero--mission {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #626687;
+    opacity: 0.75;
+  }
+  .footer__links {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 84px;
+    & div {
+      display: flex;
+      flex-direction: column;
+      gap: 18px;
+      & p a {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 18px;
+        text-transform: capitalize;
+        color: #888b97;
+      }
     }
   }
-}
-.footer__links--contact p {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 18px;
-  text-transform: capitalize;
-  color: #888b97;
-}
-.footer__links--title {
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 22px;
-  text-transform: capitalize;
-  color: #0e1735;
-  margin-bottom: 6px;
-}
+  .footer__links--contact p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: capitalize;
+    color: #888b97;
+  }
+  .footer__links--title {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: capitalize;
+    color: #0e1735;
+    margin-bottom: 6px;
+  }
 }

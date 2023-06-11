@@ -10,44 +10,44 @@
 @import "./_inputalarmer.scss";
 
 @font-face {
-font-family: "Lexend";
+  font-family: "Lexend";
   src: url("./fonts/ReadexPro-ExtraLight.ttf");
   font-weight: 200;
   font-style: normal;
 }
 @font-face {
-font-family: "Lexend";
+  font-family: "Lexend";
   src: url("./fonts/ReadexPro-Light.ttf");
   font-weight: 300;
   font-style: normal;
 }
 @font-face {
-font-family: "Lexend";
+  font-family: "Lexend";
   src: url("./fonts/ReadexPro-Medium.ttf");
   font-weight: 500;
   font-style: normal;
 }
 @font-face {
-font-family: "Lexend";
+  font-family: "Lexend";
   src: url("./fonts/ReadexPro-Regular.ttf");
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
-font-family: "Lexend";
+  font-family: "Lexend";
   src: url("./fonts/ReadexPro-SemiBold.ttf");
   font-weight: 600;
   font-style: normal;
 }
 @font-face {
-font-family: "Lexend";
+  font-family: "Lexend";
   src: url("./fonts/ReadexPro-bold.ttf");
   font-weight: 700;
   font-style: normal;
 }
 body {
-  font-family: 'Lexend';
-  user-select: none;  
+  font-family: "Lexend";
+  user-select: none;
 }
 a {
   text-decoration: none;
@@ -57,40 +57,26 @@ a {
 *:after {
   box-sizing: border-box;
 }
-*:focus{outline: none;}
-@media (max-width: 660.5px){
+*:focus {
+  outline: none;
+}
+.hidden {
+  visibility: hidden;
+}
 main {
   width: 100%;
-  
-  margin: auto;
+  margin: 0 auto;
   position: relative;
   overflow: hidden;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   gap: 120px;
-  // border: 1px solid red;
 }
-.hidden{
-  visibility: hidden;
-}}
- @media (min-width: 661px){
-main {
-  width: 100%;
-  min-width: 1200px;
-  max-width: 1920px;
-  margin: auto;
-  position: relative;
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  gap: 120px;
-  border: 1px solid green;
-  // margin-top: -200px;
+
+@media (min-width: 661px) {
+  main {
+    min-width: 1200px;
+    max-width: 1920px;
+  }
 }
-.hidden{
-  visibility: hidden;
-}} 
-
-
